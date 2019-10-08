@@ -1,3 +1,9 @@
+//variables
+$categorieweight: bold;
+$categoriesize: 20px;
+//mixins
+@import "_mymixins.scss";
+
 body {
     background-image: linear-gradient(to right, green , white,red,);
     margin: 0;
@@ -17,11 +23,39 @@ body {
     margin-left: auto;
   }
 
-#boissons {
-    font-weight: bold;
-    font-size: 20px;
+#boissons , #entrées, #pâtes, #pizzas, #viandespoissons, #desserts {
+    font-weight: $categorieweight;
+    font-size: $categoriesize;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    text-align: center;
+    border: 3px solid none;
+    @include border-radius;
+    background-color:darkred;
+    display: inline;
+    color: white;
+    position: relative;
+    right: 50px;
 }
 
+.accompagnement {
+  font-style: italic;
+  text-align: center;
+  padding-top: 2em;
+}
+
+.souscatego {
+  font-style: italic;
+  font-weight: bold;
+  padding-top: 2em;
+  padding-bottom: 1em;
+  text-decoration: underline;
+}
+
+.list-group {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
   
   nav{
   width: 100%;
@@ -31,7 +65,6 @@ body {
   ul{
   width: 80%;
   margin: 0 auto;
-  padding: 0;
   }
   
   ul li{

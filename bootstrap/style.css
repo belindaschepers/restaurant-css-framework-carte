@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   background-image: -webkit-gradient(linear, left top, right top, from(green), color-stop(white), to(red));
   background-image: linear-gradient(to right, green, white, red);
@@ -19,9 +20,40 @@ body {
   margin-left: auto;
 }
 
-#boissons {
+#boissons, #entrées, #pâtes, #pizzas, #viandespoissons, #desserts {
   font-weight: bold;
   font-size: 20px;
+  padding-bottom: 2em;
+  padding-top: 2em;
+  text-align: center;
+  border: 3px solid none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -ms-border-radius: 10px;
+  background-color: darkred;
+  display: inline;
+  color: white;
+  position: relative;
+  right: 50px;
+}
+
+.accompagnement {
+  font-style: italic;
+  text-align: center;
+  padding-top: 2em;
+}
+
+.souscatego {
+  font-style: italic;
+  font-weight: bold;
+  padding-top: 2em;
+  padding-bottom: 1em;
+  text-decoration: underline;
+}
+
+.list-group {
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 nav {
@@ -32,7 +64,6 @@ nav {
 ul {
   width: 80%;
   margin: 0 auto;
-  padding: 0;
 }
 
 ul li {
