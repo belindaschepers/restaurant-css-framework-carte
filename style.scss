@@ -62,22 +62,22 @@ body {
   background:darkred;
   }
   
-  ul{
+  .navbar {
   width: 80%;
   margin: 0 auto;
   }
   
-  ul li{
+  .navbar li{
   list-style: none;
   display: inline-block;
   padding: 20px;
   }
   
-  ul li:hover{
+  .navbar li:hover{
   background: darkgreen;
   }
   
-  ul li a{
+  .navbar li a{
   color: #fff;
   text-decoration: none;
   }
