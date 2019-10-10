@@ -15,6 +15,8 @@ nav {
 .navbar {
   width: 80%;
   margin: 0 auto;
+  position: relative;
+  right: 20px;
 }
 
 .navbar li {
@@ -59,13 +61,13 @@ nav {
   display: inline;
   color: white;
   position: relative;
-  right: 50px;
+  right: 15px;
 }
 
 .accompagnement {
   font-style: italic;
   text-align: center;
-  padding-top: 2em;
+  padding-top: 1em;
 }
 
 .souscatego {
@@ -82,10 +84,10 @@ nav {
 }
 
 @media (max-width: 768px) {
-  ul {
+  .navbar {
     width: 100%;
   }
-  ul li {
+  .navbar li {
     display: block;
     text-align: center;
   }
