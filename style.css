@@ -83,6 +83,23 @@ nav {
   padding-bottom: 2em;
 }
 
+#infos {
+  border: 2px solid darkred;
+  background-color: darkred;
+  color: white;
+  margin: auto;
+}
+
+.foot-title {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.icon {
+  height: 3em;
+  width: 3em;
+}
+
 @media (max-width: 768px) {
   .navbar {
     width: 100%;

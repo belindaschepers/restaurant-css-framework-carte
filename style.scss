@@ -1,6 +1,7 @@
 //variables
 $categorieweight: bold;
 $categoriesize: 20px;
+$italic: italic;
 //mixins
 @import "_mymixins.scss";
 
@@ -67,7 +68,7 @@ nav{
 }
 
 .accompagnement {
-  font-style: italic;
+  font-style: $italic;
   text-align: center;
   padding-top: 1em;
 }
@@ -84,7 +85,24 @@ nav{
   padding-top: 2em;
   padding-bottom: 2em;
 }
-  
+
+#infos {
+  border: 2px solid darkred;
+  background-color: darkred;
+  color: white;
+  margin: auto;
+}
+
+.foot-title {
+  font-weight: $categorieweight;
+  font-style: $italic;
+}
+
+.icon {
+  height: 3em;
+  width: 3em;
+}
+
   @media (max-width:768px){
   .navbar{
   width:100%;
